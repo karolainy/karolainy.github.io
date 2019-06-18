@@ -1,0 +1,11 @@
+.menu{
+  font-family: 'Noto Serif', serif;
+}
+
+.menu> a{
+  text-decoration:none;
+  color:gray;
+}
+
+.menu> a:visited {
+color:brown;
