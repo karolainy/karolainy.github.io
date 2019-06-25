@@ -1,11 +1,47 @@
 .menu{
   font-family: 'Noto Serif', serif;
+  font-size:18px;
+  width:700px;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  text-align:center;
 }
 
 .menu> a{
   text-decoration:none;
   color:gray;
+  margin-right: 20px;
 }
 
 .menu> a:visited {
 color:brown;
+}
+
+.menu> a:hover {
+color:lightcoral;
+}
+
+h1 {
+  color:lightslategray;
+  font-family: 'Mali', cursive;
+  border-bottom: 2px dotted black;
+  padding-bottom:5px
+  
+}
+.largura{
+  width:700px;
+  margin:auto;
+}
+.conteudo{
+  font-family: 'Josefin Sans', sans-serif;
+  line-height:32px;
+}
+.img-principal{
+float:left;
+margin-right:20px;
+margin-bottom:20px;
+}
+.selecionado{
+  border-bottom:2px dotted black;
+}
