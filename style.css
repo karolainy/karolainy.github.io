@@ -50,4 +50,9 @@ margin-bottom:20px;
    color:lightcoral;
    font-family: 'Numans', sans-serif;
 }
-
+.img-principal1{
+float:bottom;
+margin-right:20px;
+margin-bottom:20px;
+display:inline;
+}
