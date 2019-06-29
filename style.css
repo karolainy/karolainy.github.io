@@ -34,8 +34,9 @@ h1 {
   margin:auto;
 }
 .conteudo{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Vollkorn SC', sans-serif;
   line-height:32px;
+  color:goldenrod;
 }
 .img-principal{
 float:left;
@@ -45,3 +46,8 @@ margin-bottom:20px;
 .selecionado{
   border-bottom:2px dotted black;
 }
+#p12{
+   color:lightcoral;
+   font-family: 'Numans', sans-serif;
+}
+
