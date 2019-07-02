@@ -15,11 +15,11 @@
 }
 
 .menu> a:visited {
-color:brown;
+color:#ff99cc;
 }
 
 .menu> a:hover {
-color:lightcoral;
+color:#800040;
 }
 
 h1 {
@@ -32,27 +32,40 @@ h1 {
 .largura{
   width:700px;
   margin:auto;
+  margin-top: 20px;
+}
+.largura-index{
+  width:300px;
+  display: inline-block;
 }
 .conteudo{
   font-family: 'Vollkorn SC', sans-serif;
   line-height:32px;
-  color:goldenrod;
+  color:#800040;
 }
+
+.conteudo p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .img-principal{
-float:left;
+float: left;
 margin-right:20px;
 margin-bottom:20px;
 }
 .selecionado{
   border-bottom:2px dotted black;
 }
-#p12{
+.p12{
    color:lightcoral;
    font-family: 'Numans', sans-serif;
 }
-.img-principal1{
-float:bottom;
+.img-principal1 {
 margin-right:20px;
 margin-bottom:20px;
-display:inline;
+display:inline-block;
+}
+body{
+  background-color:#ffe6e6;
 }
