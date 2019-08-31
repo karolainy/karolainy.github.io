@@ -4,35 +4,108 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/13787ee23a.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Mali|Vollkorn SC|Numans&display=swap" rel="stylesheet">
+    <style>
+      .menu{
+        font-family: 'Noto Serif', serif;
+        font-size:18px;
+        width:700px;
+        margin:auto;
+        margin-top:30px;
+        margin-bottom:30px;
+        text-align:center;
+      }
+
+      .menu> a{
+        text-decoration:none;
+        color:gray;
+        margin-right: 20px;
+      }
+
+      .menu> a:visited {
+        color:#ff99cc;
+      }
+
+      .menu> a:hover {
+        color:#800040;
+      }
+
+      .color{
+        color:lightcoral;
+        font-family: 'Numans', sans-serif;}
+
+      .fonte {
+        font-family: 'Vollkorn SC', sans-serif;
+        line-height:32px;
+        color:#800040;
+      }
+
+      h1 {
+        color:lightslategray;
+        font-family: 'Mali', cursive;
+        border-bottom: 2px dotted black;
+        padding-bottom:5px
+          }   
+
+      .largura{
+        width:700px;
+        margin:auto;
+        margin-top: 20px;
+        }
+      .largura-index{
+        width:300px;
+        display: inline-block;
+        }
+      .selecionado{
+        border-bottom:2px dotted black;
+      }
+      p {
+        font-family: 'Vollkorn SC', sans-serif;
+        line-height:32px;
+        color:#800040;
+      }
+      
+      body{
+        background-color: #f2e6ff;
+      }
+    </style>
   </head>
   <body>
-   <div class="menu largura">
-    <a href="index.html"class="selecionado">Início</a>
-    <a href="disciplinas.html">Minhas disciplinas</a>
-    <a href="bandas.html">Bandas favoritas</a>
-    <a href="Lanches.html">Lanches favoritos</a>
-    <a href="Hobbies.html">Hobbies</a>
-   </div>
-   <h1 class="largura">Início</h1>
-   <div class="largura">
-   <img src="foto.jpg"  width="300px" class="img-principal" alt="">
-   <div class="largura-index conteudo">  
-     
-     <h4 class="p12">Olá seja muito bem vindo a minha página, nela você conhecerá um pouco sobre mim, o que gosto gosto de fazer e algumas curiosidades!<h4>
-     <p>Primeiramente, conheça algumas coisas sobre mim:</p>
-     <p class="p12">NOME: </p>
-     <p >Karolainy de Oliveira Santos</p>
-     <p class="p12" >IDADE:</p>
-     <p>15 anos</p>
-     <p class="p12">CIDADE:</p>
-     <p> Baraúna-PB</p>
-     <p class="p12">ESCOLA: </p>
-     <p>IFPB</p>
-     <p class="p12">CURSO:</p>
-     <p>Informática</p>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light menu">
+            <a class="navbar-brand selecionado" href="index.html">Início</a>
+            <a class="navbar-brand" href="disciplinas.html">Minhas disciplinas</a>
+            <a class="navbar-brand" href="bandas.html">Bandas favoritas</a>
+            <a class="navbar-brand" href="amigos.html">Lanches Favoritos</a>
+            <a class="navbar-brand" href="#">Hobbies</a>
+          </nav>
+          <h1>Início</h1>
+          <div class="media">
+            <img src="foto.jpg"  class="col-3" alt="">
+            <div class="media-body">  
+              <h4 class="color">Olá seja muito bem vindo a minha página, nela você conhecerá um pouco sobre mim, o que gosto gosto de fazer e algumas curiosidades!</h4>
+              <p>Primeiramente, conheça algumas coisas sobre mim:</p>
+              <p class="color">NOME: </p>
+              <p >Karolainy de Oliveira Santos</p>
+              <p class="color" >IDADE:</p>
+              <p>15 anos</p>
+              <p class="color">CIDADE:</p>
+              <p> Baraúna-PB</p>
+              <p class="color">ESCOLA: </p>
+              <p>IFPB</p>
+              <p class="color">CURSO:</p>
+              <p>Informática</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
-</html> 
+</html>
